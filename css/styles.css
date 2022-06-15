@@ -35,8 +35,8 @@
 
     .container{
         width: 1200px;
-        margin-left: 200px;
-        margin-right: 200px;
+        padding-left: 15px;
+        padding-right: 15px;
         margin: 0 auto;
     }
     
@@ -128,7 +128,7 @@
       }
     
     .header-link:hover,
-    .header-link:focus {
+    .header-link:focus{
         color: var(--color-accent);
       }
     .header-list{
