@@ -424,13 +424,13 @@
         align-items: center;
         justify-content: center;
         border: 1px solid #AFB1B8;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
         border-radius: 4px;
-        fill: #757575;
+        fill: #AFB1B8;   
 
         transition: fill var(--hover-focus-duration) cubic-bezier(0.4, 0, 0.2, 1),
         border var(--hover-focus-duration) cubic-bezier(0.4, 0, 0.2, 1);
     }
+    
     .clients-link:hover,
     .clients-link:focus{
         fill: var(--color-accent);
@@ -570,7 +570,7 @@
     .footer-link{
         width: 44px;
         height: 44px;
-        background-color: #757575;
+        background-color: rgba(255, 255, 255, 0.1);;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -634,6 +634,7 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         padding: 10px 28px 10px 29px;
+
         margin-left: 12px;
 
         font-weight: 700;
