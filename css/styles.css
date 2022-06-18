@@ -791,6 +791,7 @@
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
+
     background-color: transparent;
     transition: fill var(--hover-focus-duration) cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -829,7 +830,8 @@
     padding-left: 30px;
 
     transition: border-color var(--hover-focus-duration)
-    cubic-bezier(0.4, 0, 0.2, 1);
+    cubic-bezier(0.4, 0, 0.2, 1),
+    fill var(--hover-focus-duration)   cubic-bezier(0.4, 0, 0.2, 1);
 }
   
  .modal-input:focus{
