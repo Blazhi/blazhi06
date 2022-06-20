@@ -523,14 +523,12 @@
         margin-left: 30px;
 
         transition: background-color var(--hover-focus-duration) cubic-bezier(0.4, 0, 0.2, 1),
-        border var(--hover-focus-duration) cubic-bezier(0.4, 0, 0.2, 1),
         box-shadow var(--hover-focus-duration) cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .projects-item:hover,
     .projects-item:focus{
     background-color: #FFFFFF;
-    
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
      1px 4px 6px rgba(0, 0, 0, 0.16);
     }
@@ -780,26 +778,26 @@
     }
 
     .icon-close {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-
-    background-color: transparent;
-    transition: fill var(--hover-focus-duration) cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+      
+        background-color: transparent;
+        fill: #212121;
+        transition: fill var(--hover-focus-duration) cubic-bezier(0.4, 0, 0.2, 1);
+      }
     .icon-close:hover,
     .icon-close:focus {
-        fill: var(--accent-color);
-    }
+        fill: var(--color-accent);
+      }
 
     .is-hidden{
     opacity: 0;
