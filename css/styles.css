@@ -880,6 +880,8 @@
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    transition: var(--hover-focus-duration)
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-check-text::before{
